@@ -32,19 +32,29 @@
         text-align: center;
         width: 20%;
    }
-   
-   td:hover {
-   		background-color: red;
-   }
+  
+  button {
+  		background-color: lightblue;
+        border: none;
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+  }
+  
+  button:hover {
+  		background-color: red;
+  }
    </style>
 </head>
 <body>
   <h1>Scotland</h1>
   <table id="header">
   	<tr>
-    	<td>Tourism</td>
-        <td>History</td>
-        <td>Dab</td>
+    	<td><button type="button">Tourism</button></td>
+      	<td><button type="button">History</button></td>
+        <td><button type="button">Dab</button></td>
     </tr>
   </table>
   <p>Cam Newton is the best quarterback to ever play in the NFL.</p>
