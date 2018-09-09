@@ -3,8 +3,53 @@
 <head>
    <title>TITLE</title>
    <meta></meta>
+   <style>
+   body {
+   		background-color: blue;
+   }
+   
+   h1 {
+   		color: white;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+   }
+   
+   #header {
+   		font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        table-align: center;
+        background-color: lightblue;
+        padding: 10px;
+        margin-left: -8px;
+        margin-right: auto;
+        width: 103%;
+   }
+   
+   td {
+   		padding: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        width: 20%;
+   }
+   
+   td:hover {
+   		background-color: red;
+   }
+   </style>
 </head>
 <body>
-  <p1>hello</p1>
+  <h1>Scotland</h1>
+  <table id="header">
+  	<tr>
+    	<td>Tourism</td>
+        <td>History</td>
+        <td>Dab</td>
+    </tr>
+  </table>
+  <p>Cam Newton is the best quarterback to ever play in the NFL.</p>
+  
+  
 </body>
 </html>
+
