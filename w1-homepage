@@ -5,15 +5,15 @@
    <meta></meta>
    <style>
    body {
-   		background-color: white;
+   		background-color: blue;
    }
-   
+
    h1 {
-   		color: black;
+   		color: white;
         text-align: center;
         font-family: "Times New Roman", Times, serif;
    }
-   
+
    #header {
    		font-family: "Times New Roman", Times, serif;
         font-size: 20px;
@@ -24,7 +24,7 @@
         margin-right: auto;
         width: 103%;
    }
-   
+
    td {
    		padding: 5px;
         padding-left: 25px;
@@ -32,7 +32,7 @@
         text-align: center;
         width: 20%;
    }
-  
+
   button {
   		background-color: lightblue;
         border: none;
@@ -40,15 +40,16 @@
         padding: 5px;
         padding-left: 25px;
         padding-right: 25px;
-        
+
   }
-  
+
   button:hover {
   		background-color: red;
   }
    </style>
 </head>
 <body>
+<a href=
   <h1>Scotland</h1>
   <table id="header">
   	<tr>
@@ -57,9 +58,12 @@
         <td><button type="button">Dab</button></td>
     </tr>
   </table>
-  <p>Cam Newton is the best quarterback to ever play in the NFL.</p>
+  <h3>About Scotland </h3>
+  <p>Scotland is the northernmost country of the United Kingdom. It is a mountainious region with mountains such as the Highlands and the Cairngorms and is famous for its amazing natural scenery 
+  including Loch Ness, Ben Nevis, Cairngorms National Park, Skye Isle, Shetland Islands, and many more. Scotland has rich history and culture, which makes Scotland so fascinating for tourists. 
+  </p>
   
-  
+
+
 </body>
 </html>
-
