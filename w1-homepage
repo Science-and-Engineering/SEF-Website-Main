@@ -10,6 +10,14 @@
    		background-color: white;
    }
    
+
+   p {
+      color: black; 
+      text-allign: center;
+      font-family: "verdana"
+
+   }
+
    h1 {
    		color: black;
         text-align: center;
@@ -59,7 +67,7 @@
         <td><button type="button">Dab</button></td>
     </tr>
   </table>
-  <p>Cam Newton is the best quarterback to ever play in the NFL.</p>
+  <p>Centered paragraph.</p>
   
   
 </body>
