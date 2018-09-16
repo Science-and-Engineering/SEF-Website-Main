@@ -24,7 +24,8 @@
         padding: 0px;
         margin-top: -8px;
         margin-left: -8px;
-        margin-right: -8px;
+        margin-right: 8px;
+        width: 103%;
    }
    
    td {
@@ -55,6 +56,13 @@
   #filler {
   	width: 210px;
   }
+  
+  p {
+    color: black; 
+    text-align: center;
+    font-family: "verdana"
+  }
+
    </style>
 </head>
 <body>
@@ -71,5 +79,4 @@
   
   
 </body>
-</htmid="header-left"
 
