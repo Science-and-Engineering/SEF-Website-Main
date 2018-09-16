@@ -2,7 +2,9 @@
 <html>
 <head>
    <title>TITLE</title>
-   <meta></meta>
+   <meta charset= "utf-8">
+   <meta name= "description" content="Scottish rich history, culture, and tourism. ">
+   <meta name= "keywords"content="scotland, history, culture, tourism, innovation, queen">
    <style>
    body {
    		background-color: white;
