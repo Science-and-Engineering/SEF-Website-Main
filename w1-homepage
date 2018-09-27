@@ -25,7 +25,7 @@
         margin-top: -8px;
         margin-left: -8px;
         margin-right: 8px;
-        width: 103%;
+        width: 100%;
    }
    
    td {
@@ -48,9 +48,9 @@
   }
   
   #header-left {
-  		font-size: 25px;
+  		font-size: 45px;
         
-        width: 150px;
+        width: 400px;
   }
   
   #filler {
@@ -59,8 +59,9 @@
   
   p {
     color: black; 
-    text-align: center;
-    font-family: "verdana"
+    text-align: left;
+    font-family: "verdana";
+	font-size: 30px; 
   }
   
   #h:hover {
@@ -77,7 +78,7 @@
 <body>
   <table id="header">
   	<tr>
-    	<td><h1 id = "header-left">Scotland</h1></td>
+    	<td><h1 id = "header-left">All About Scotland</h1></td>
         <td id = "filler"></td>
     	<td id="h">Tourism</td>
       	<td id="h">History</td>
@@ -96,3 +97,4 @@
   
 </body>
 
+<html>
