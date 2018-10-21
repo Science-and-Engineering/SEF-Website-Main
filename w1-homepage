@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-   <title>TITLE</title>
+   <title>Scotland: Tourism and History</title>
    <meta charset= "utf-8">
    <meta name= "description" content="Scottish rich history, culture, and tourism. ">
    <meta name= "keywords"content="scotland, history, culture, tourism, innovation, queen">
@@ -12,12 +13,13 @@
    
    h1 {
    		color: black;
-        text-align: center;
-        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        font-family: "Trebuchet MS", Times, serif;
+		font-size: 2em;
    }
    
    #header {
-   		font-family: "Times New Roman", Times, serif;
+   		font-family: "Trebuchet MS", Times, serif;
         font-size: 20px;
         table-align: center;
         background-color: lightblue;
@@ -61,8 +63,16 @@
     color: black; 
     text-align: left;
     font-family: "verdana";
-	font-size: 30px; 
+	font-size: 24px; 
   }
+  
+  ul {
+	color:black; 
+	text-allign: left; 
+	font-family: "verdana";
+	font-size 24px;
+  }
+  
   
   #h:hover {
   		background-color: #76bdd5;
@@ -72,6 +82,7 @@
   width: 175px;
 
 	}
+	
 
    </style>
 </head>
@@ -80,32 +91,36 @@
   	<tr>
     	<td><h1 id = "header-left">All About Scotland</h1></td>
         <td id = "filler"></td>
-    	<td id="h">Tourism</td>
-      	<td id="h">History</td>
-        <td id="h">Dab</td>
+    	<td id="h">Home</td>
+      	<td id="h">Tourism</td>
+        <td id="h">History</td>
     </tr>
   </table>
-  <h2> Scotland </h2>
+  <h1> General Facts About Scotland </h1>
+  <p style= "float: right; clear: left"><img src="https://www.worldatlas.com/img/areamap/4e5207e1e945ebf963de3d3d4b6bb152.gif" align="right" alt="Image" height="450" width="325" border= "5 px">
   <p>Scotland is a part of the United Kingdom. It is home to around 800 small islands, notable ones being the northern
   isles of Shetland and Orkney, the Hebrides, etc. Scotland is surrounded by a various bodies of waters including the 
   North Sea in the east, the Atlantic Ocean in the north and west, and the Irish Sea in the south-west. Scotland is known for
   the countries beautiful highlands, vivid nature, and fascinating culture with a rich medieval history.
   It’s not hard to see why the national animal of Scotland is the Unicorn, as it is truly a magical country.
- </p>
 
-  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAB+CAMAAACJW9TbAAAAbFBMVEUAZb3///8AY7wAXboAYbwAW7oAX7sAV7gAUrcAWbnt8vkAT7b3+v2BodQAVbi+z+gsbb/b5PLR3e+dtt2yxeRtlM/m7PYmar9XhcjG1OuRr9qKp9eAn
-  dK6yeZ1l9A+eMRPfMYARrRhjcw/c8KLeYV/AAAEnklEQVR4nN1d6ZqiMBCETgJEDlFRUMZj8P3fcZlvdlxHOVKRw+36q0IKK50+ksZxWxAdUuW8L3R6iNqG7rR94LqrU0JzD70FlJxW7QPv4OS6+1S8IysS6b5r2J2cXHfzhgJU6aZ70D2c3N02lHOT+AUZbnc9Y+7j5
-  LrryxsJkMRl3Tvifk61APN3EaDKe2RnzMldvIcAa9ktTIZrxKkWYOHPLUDSRb/sEE5utCE9KyVNm9ZF1pJTLcCTmE+AUpyMZAdyqpfgaibHgpKqc5F9gZMbZckMFpCUn5nKDudUCzCW3sSUPBmby+6bU9+i/IhlkUxKKSmW4Ah3zvUI/iTK9GSOBQmNya7G8epQWHS47
-  c2sSikmoSRkiTJaFeHXAxdOjP5yXwTj/1UUXBBr94Uodv4+bfLyI/wP08gCrK8Pz4pjfjcoCkz9jhsWpTemBfS8ErR2tf/2IJ5agOAl3NV1NAFSeEUnuXuT3d1lVACbmOyqxmBF6pqBI4myoHEo5FeoAHelHl6AUpfoormuWsMGQeiS7e7OA3u2UpxRRouYOtYWUhq2g
-  NllSM82OcOyO6qeGWAeed2wK5Oh/iqZ4LIrdP8jlX6MXndVeEOwkh7s0uxi3+zOfo5bwLP/MiUfl12WG9+WBL4Ex8FrFtALYPu0LiBfRn7CAtxtlb0ApejNRD7dL/5E76f7MrjPyFJbAfopKju7rLdRyvMBpbAJQoQo0RtZJ4dlGKN2aHWC7brsrLs03yV+IYfaW0J4Q
-  rTMoewm+fkSNbIvFltId5d6mnB4dpBbIZwDevl9arDIdkPqD3hpPxkGIRScYKflQw+wvJOFAPeOwRSuHc+9heyGcS4pucKJgf76jsqNE+A/2J8HdJelNKuS3GG97RQgBVvYVdkOmy8lITcoq44Kd1+VuYnRRnpDB9UUnHEBOs0CVI6F7EZJfniysswgPjwdiyxpNVaan
-  rwQFuCTE0PiCk+kTTi47O4G5F/QjHw9D+6XYIt5ubyMXHeVskLHtKhuQYhUFr+W45cnRYBbwO8KN/kFbu2SScoNpCwEqAUJbSG7UZKiTZC6wi0X4VazGsK3M4ZQ8DNHn8Jio6apct1A6owKEMPyPJns7liFcHrdHOuqYbGeAnVAh04RM0SHFqdqAtSu6BgCXM67vZNCO
-  GTow3o7k+z+QeRwgbETcT6xtWtCHVrB9Z02REc5g7VrgkXM2oye2HhaCBpCgJ3lvulBmuD6zm9EmfNy3m5okIJ9wHusqjeZSL/hCbiC9INFPOoGklfgp1YCjOyLPBNAWtR3vlIW77DTuw0MOfHTHj8bwc+WM1xz+flG/HxYhrEGv5iQX+zOMMfCLxfGL2fJMLfMrwbAr
-  1bDsKbGr/bJr0bNby8Bwz0f/Pbm8NtDxXCvG789ifz2jjLc48tvLzbDPfP8zjbwO4PC8KwQvzNd/M7eMTwjye8sK78zx/zOhjM8w8+v1wK/nhgMe5fw6zHDrxcQw55N/HprceyBxrFXHceegtj3/4/ej8iXGfbo5NdLlV/PW4a9ifn1kGbY65tfT3Z+vfMZvuOA37so+
-  L0zhN+7Xf7jd/D8AZ7HdR20FZU8AAAAAElFTkSuQmCC" align="right" alt="Image" height="300" width="450">
+  <p> The main reason why thousands of people travel to Scotland for their summer holiday is: Nature! No matter where you go in Scotland, you should be able to find natural reserves, 
+  cycling paths, national parks, scenic areas, geoparks, and many other outdoor events. </p>
+  <p> Some of the most famous ones are:  </p>
+  <ul style= "list-style-type: disc">
+	<li> fill in sushrit </li>
+	<li> fill in sushrit </li>
+	<li> fill in sushrit </li>
+	<li> fill in sushrit </li>
+	<li> fill in sushrit </li>
+	<li> fill in sushrit </li>
+	<li> read more about these on tourism (should be hyperlinked)</li>
+  </ul>
   
-  <img src="https://www.worldatlas.com/img/areamap/4e5207e1e945ebf963de3d3d4b6bb152.gif" align="left" alt="Image" height="450" width="325">
-  <img src= "https://naturalcapitalforum.com/docs/096_494__scotland_1829247_960_720_1494601004_standard.jpg" align="center" alt="Image" height="300" width="500">
+  <p> If you love the outdoors, Scotland will be amazing for you! </p>
+  <br>
+  <br>
+  <h1> Major Scottish Cities</h1>
 </body>
 
 <html>
