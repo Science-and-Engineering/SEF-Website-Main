@@ -1,0 +1,75 @@
+   body {
+   		background-color: white;
+   }
+   
+   h1 {
+   		color: black;
+        text-align: left;
+        font-family: "Trebuchet MS", Times, serif;
+		font-size: 2em;
+   }
+   
+   #header {
+   		font-family: "Trebuchet MS", Times, serif;
+        font-size: 20px;
+        table-align: center;
+        background-color: lightblue;
+        padding: 0px;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: 8px;
+        width: 100%;
+   }
+   
+   td {
+   		text-align: center;
+		padding: -10px;
+   }
+  
+  button {
+  		background-color: lightblue;
+        border: none;
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+        margin-left:-40x;
+        
+  }
+  
+  button:hover {
+  		background-color: #76bdd5;
+  }
+  
+  #header-left {
+  		font-size: 45px;
+        
+        width: 400px;
+  }
+  
+  #filler {
+  	width: 210px;
+  }
+  
+  p {
+    color: black; 
+    text-align: left;
+    font-family: "verdana";
+	font-size: 24px; 
+  }
+  
+  ul {
+	color:black; 
+	text-allign: left; 
+	font-family: "verdana";
+	font-size 24px;
+  }
+  
+  
+  #h:hover {
+  		background-color: #76bdd5;
+  }
+  
+  #h {
+  width: 175px;
+
+	}
