@@ -1,5 +1,6 @@
    body {
    		background-color: white;
+		margin: 0;
    }
    
    h1 {
@@ -10,35 +11,20 @@
    }
    
    #header {
-   		font-family: "Trebuchet MS", Times, serif;
-        font-size: 20px;
-        table-align: center;
-        background-color: lightblue;
-        padding: 0px;
-        margin-top: -8px;
-        margin-left: -8px;
-        margin-right: 8px;
-        width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightblue;
+	top: 0;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 100%;
    }
    
    td {
    		text-align: center;
 		padding: -10px;
    }
-  
-  button {
-  		background-color: lightblue;
-        border: none;
-        font-size: 20px;
-        width: 100px;
-        height: 50px;
-        margin-left:-40x;
-        
-  }
-  
-  button:hover {
-  		background-color: #76bdd5;
-  }
   
   #header-left {
   		font-size: 45px;
@@ -58,18 +44,28 @@
   }
   
   ul {
-	color:black; 
+	color: black; 
 	text-allign: left; 
 	font-family: "verdana";
 	font-size 24px;
   }
-  
-  
-  #h:hover {
-  		background-color: #76bdd5;
+
+  #facts {
+	list-style-type: disc;
   }
   
-  #h {
-  width: 175px;
+  .header_tab {
+	  float: left;
+  }
 
-	}
+  .header_tab a {
+    display: block;
+	color: black;
+    text-align: center;
+    padding: 21px 28px;
+    text-decoration: none;
+  }
+  
+  .header_tab a:hover {
+	  background-color: #419fbe;
+  }
