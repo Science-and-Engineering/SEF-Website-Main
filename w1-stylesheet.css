@@ -11,6 +11,7 @@
    }
    
    #header {
+	float: right;
     list-style-type: none;
     overflow: hidden;
     background-color: lightblue;
@@ -27,8 +28,8 @@
    }
   
   #header-left {
+		float:  left;
   		font-size: 45px;
-        
         width: 400px;
   }
   
@@ -45,7 +46,7 @@
   
   ul {
 	color: black; 
-	text-allign: left; 
+	text-align: left; 
 	font-family: "verdana";
 	font-size 24px;
   }
@@ -55,7 +56,7 @@
   }
   
   .header_tab {
-	  float: left;
+	  float: right;
   }
 
   .header_tab a {
