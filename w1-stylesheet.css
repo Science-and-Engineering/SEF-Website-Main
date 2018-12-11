@@ -8,6 +8,12 @@
         text-align: left;
         font-family: "Trebuchet MS", Times, serif;
 		font-size: 2em;
+		margin-left: 8px;
+   }
+   
+   h3 {
+	   margin-left: 12px;
+	   font-size:  24px;
    }
    
    #header {
@@ -28,9 +34,10 @@
    }
   
   #header-left {
+		margin-left: 15px;
 		float:  left;
-  		font-size: 45px;
-        width: 400px;
+		padding-top: 8px;
+		font-size: 40px;
   }
   
   #filler {
@@ -42,13 +49,15 @@
     text-align: left;
     font-family: "verdana";
 	font-size: 24px; 
+	margin-left: 24px;
   }
   
   ul {
 	color: black; 
 	text-align: left; 
 	font-family: "verdana";
-	font-size 24px;
+	font-size: 24px;
+	margin-left: 36px;
   }
 
   #facts {
